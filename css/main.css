@@ -1,0 +1,91 @@
+body    {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+}
+*   {
+    box-sizing: border-box;
+}
+p   {
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+    margin: 0;
+}
+h1  {
+    font-weight: 400;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0; 
+}
+.container  {
+    /* border: 1px solid red; */
+    width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 72px;
+}
+.header-content {
+   display: flex; 
+   justify-content: space-between;
+}
+.nav    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+a   {
+    color: #000000;
+    text-decoration: none;
+}
+.place  {
+    font-size: 18px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.offer{
+    margin-bottom: 98px;
+    margin-top: 52px;
+}
+.offer-title    {
+    font-size: 45px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+.desc   {
+    font-size: 18px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.btn    {
+    color: #fff;
+    background-color: #6a85e3;
+    font-size: 18px;
+    padding: 18px 30px;
+    font-weight: 700;
+    display: block;
+    width: 195px;
+    text-align: center;
+}
+.btn:hover    {
+    background: #2643ac;
+}
+.btn:active    {
+    background: #0f236d;
+}
+.intro  {
+    background: #eaeaea;
+    padding: 30px;
+    width: 441px;
+}
+.intro-title    {
+    font-weight: 700;
+    margin-bottom: 17px;
+}
